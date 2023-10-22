@@ -218,3 +218,48 @@
     font-family: Bitter;
     background-color: #2de46a;
   }
+
+   /* media Queries */
+
+   @media screen and (max-width: 450px){
+        .start{
+          background-color: #22074d;
+          background-image: none;
+        }
+
+        .startInput{
+          width: 280px;
+        }
+
+        .startButton{
+          background-color: #FFD700;
+          width:210px;
+          font-weight: 600;
+        }
+
+        .app{
+          height: 100%;
+        }
+
+         .main{
+          width: 70%;
+        } 
+        
+        .pyramid{
+          height: 80%;
+          width: 30%;
+          /* visibility: hidden; */
+        }
+/* 
+        .moneyListItem{
+          padding: 1px;
+        }
+
+        .moneyListItemNumber{
+          height: 80%;
+        } */
+
+        .timer{
+          left: 32%;
+        }
+   }
