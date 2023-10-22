@@ -250,16 +250,22 @@
           width: 30%;
           /* visibility: hidden; */
         }
-/* 
+ 
         .moneyListItem{
           padding: 1px;
         }
 
-        .moneyListItemNumber{
+        /* .moneyListItemNumber{
           height: 80%;
-        } */
+        }  */
 
         .timer{
           left: 32%;
+         
+
+        }
+
+        .moneyListItemAmount{
+          font-size: 15px;
         }
    }
