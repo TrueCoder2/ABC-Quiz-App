@@ -44,7 +44,7 @@
   .moneyListItemNumber {
     font-size: 18px;
     font-weight: 100;
-    width: 10%;
+    /* width: 10%; */
   }
   
   .moneyListItemAmount {
@@ -248,24 +248,23 @@
         .pyramid{
           height: 80%;
           width: 30%;
+          
           /* visibility: hidden; */
         }
  
-        .moneyListItem{
-          padding: 1px;
-        }
-
-        /* .moneyListItemNumber{
-          height: 80%;
-        }  */
+     .moneyList{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+     }
 
         .timer{
           left: 32%;
          
 
         }
-
-        .moneyListItemAmount{
-          font-size: 15px;
-        }
+       
+     
    }

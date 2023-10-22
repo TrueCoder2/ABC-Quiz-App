@@ -25,8 +25,8 @@ function App() {
       { id:7, amount: "₹ 3,20,000"},
       { id:8, amount: "₹ 6,40,000"},
       { id:9, amount: "₹ 12,50,000"},
-      { id:10, amount: "₹ 25,00,000"},
-      { id:11, amount: "₹ 50,00,000"},
+      { id:10, amount: "₹ 25 Lakhs"},
+      { id:11, amount: "₹ 50 Lakhs"},
       { id:12, amount: "₹ 1 Crore"},
       { id:13, amount: "₹ 3 Crore"},
       { id:14, amount: "₹ 7 Crore"},
@@ -78,7 +78,7 @@ function App() {
                     questionNumber === m.id
                       ? "moneyListItem active"
                       : "moneyListItem"
-                  }
+                  } liitem
                 >
                   <span className="moneyListItemNumber">{m.id}</span>
                   <span> &nbsp;   🔸  &nbsp;  &nbsp; &nbsp; </span>
