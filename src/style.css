@@ -223,8 +223,9 @@
 
    @media screen and (max-width: 450px){
         .start{
-          background-color: #22074d;
-          background-image: none;
+          /* background-color: #22074d; */
+          background-image: url(./assets/mob222.png);
+          /* background-image: none; */
         }
 
         .startInput{
